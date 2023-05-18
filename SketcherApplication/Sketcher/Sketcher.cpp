@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    Sketch sketch;
+    Sketch* sketch = Sketch::instance();
     while(true)
     {
         int status = showMenu(sketch);
@@ -16,6 +16,7 @@ int main()
             break;
         }
     }
+
     return 0;
 }
 

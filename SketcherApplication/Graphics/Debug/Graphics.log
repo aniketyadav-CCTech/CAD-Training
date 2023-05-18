@@ -1,0 +1,13 @@
+﻿  GraphicsLine.cpp
+C:\Work\CAD-Training\SketcherApplication\Graphics\src\GraphicsLine.cpp(1,10): fatal  error C1083: Cannot open include file: 'GraphicsLine.h': No such file or directory
+  GraphicsPoint.cpp
+C:\Work\CAD-Training\SketcherApplication\Graphics\src\GraphicsPoint.cpp(1,10): fatal  error C1083: Cannot open include file: 'GraphicsPoint.h': No such file or directory
+  GraphicsCircle.cpp
+C:\Work\CAD-Training\SketcherApplication\Graphics\src\GraphicsCircle.cpp(1,10): fatal  error C1083: Cannot open include file: 'GraphicsCircle.h': No such file or directory
+  IGraphics.cpp
+C:\Work\CAD-Training\SketcherApplication\Graphics\src\IGraphics.cpp(1,10): fatal  error C1083: Cannot open include file: 'IGraphics.h': No such file or directory
+  OpenGLWrapper.cpp
+C:\Work\CAD-Training\SketcherApplication\Graphics\src\OpenGLWrapper.cpp(1,10): fatal  error C1083: Cannot open include file: 'OpenGLWrapper.h': No such file or directory
+  ShaderProgram.cpp
+C:\Work\CAD-Training\SketcherApplication\Graphics\src\ShaderProgram.cpp(1,10): fatal  error C1083: Cannot open include file: 'ShaderProgram.h': No such file or directory
+  Generating Code...

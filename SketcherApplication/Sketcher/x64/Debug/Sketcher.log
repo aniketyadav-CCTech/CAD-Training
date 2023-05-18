@@ -1,2 +1,23 @@
-﻿  Sketch.cpp
-  Sketcher.vcxproj -> C:\Work\SketcherApplication\x64\Debug\Sketcher.exe
+﻿  Menu.cpp
+C:\Work\CAD-Training\SketcherApplication\Geometry\includes\Vector.h(13,1): warning C4275: non dll-interface class 'IGeometry' used as base for dll-interface class 'Vector'
+C:\Work\CAD-Training\SketcherApplication\Geometry\includes\IGeometry.h(7,8): message : see declaration of 'IGeometry'
+C:\Work\CAD-Training\SketcherApplication\Geometry\includes\Vector.h(12,17): message : see declaration of 'Vector'
+C:\Work\CAD-Training\SketcherApplication\Geometry\includes\Point.h(18,43): warning C4275: non dll-interface class 'IGeometry' used as base for dll-interface struct 'Point'
+C:\Work\CAD-Training\SketcherApplication\Geometry\includes\IGeometry.h(7,8): message : see declaration of 'IGeometry'
+C:\Work\CAD-Training\SketcherApplication\Geometry\includes\Point.h(18,18): message : see declaration of 'Point'
+C:\Work\CAD-Training\SketcherApplication\Geometry\includes\Line.h(9,1): warning C4275: non dll-interface class 'IGeometry' used as base for dll-interface class 'Line'
+C:\Work\CAD-Training\SketcherApplication\Geometry\includes\IGeometry.h(7,8): message : see declaration of 'IGeometry'
+C:\Work\CAD-Training\SketcherApplication\Geometry\includes\Line.h(8,17): message : see declaration of 'Line'
+C:\Work\CAD-Training\SketcherApplication\Geometry\includes\Circle.h(7,1): warning C4275: non dll-interface class 'IGeometry' used as base for dll-interface class 'Circle'
+C:\Work\CAD-Training\SketcherApplication\Geometry\includes\IGeometry.h(7,8): message : see declaration of 'IGeometry'
+C:\Work\CAD-Training\SketcherApplication\Geometry\includes\Circle.h(6,17): message : see declaration of 'Circle'
+C:\Work\CAD-Training\SketcherApplication\Graphics\include\OpenGLWrapper.h(35,21): warning C4251: 'OpenGLWrapper::mVertices': class 'std::vector<float,std::allocator<float>>' needs to have dll-interface to be used by clients of class 'OpenGLWrapper'
+C:\Work\CAD-Training\SketcherApplication\Graphics\include\OpenGLWrapper.h(30,21): message : see declaration of 'std::vector<float,std::allocator<float>>'
+C:\Work\CAD-Training\SketcherApplication\Graphics\include\GraphicsPoint.h(5,12): warning C4099: 'Point': type name first seen using 'struct' now seen using 'class'
+C:\Work\CAD-Training\SketcherApplication\Geometry\includes\Point.h(18,18): message : see declaration of 'Point'
+C:\Work\CAD-Training\SketcherApplication\Geometry\includes\Matrix.h(8,1): warning C4275: non dll-interface class 'IGeometry' used as base for dll-interface class 'Matrix'
+C:\Work\CAD-Training\SketcherApplication\Geometry\includes\IGeometry.h(7,8): message : see declaration of 'IGeometry'
+C:\Work\CAD-Training\SketcherApplication\Geometry\includes\Matrix.h(7,17): message : see declaration of 'Matrix'
+C:\Work\CAD-Training\SketcherApplication\Geometry\includes\Matrix.h(11,25): warning C4251: 'Matrix::matElement': class 'std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>' needs to have dll-interface to be used by clients of class 'Matrix'
+C:\Work\CAD-Training\SketcherApplication\Geometry\includes\Matrix.h(11,2): message : see declaration of 'std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>'
+  Sketcher.vcxproj -> C:\Work\CAD-Training\SketcherApplication\x64\Debug\Sketcher.exe

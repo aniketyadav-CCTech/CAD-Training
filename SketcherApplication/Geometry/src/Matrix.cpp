@@ -1,6 +1,6 @@
 #include "Matrix.h"
 
-Matrix::Matrix():IGeometry("Matrix")
+Matrix::Matrix():IGeometry("Matrix"),column(0),row(0)
 {
 }
 

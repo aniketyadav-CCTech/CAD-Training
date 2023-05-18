@@ -2,14 +2,16 @@
 
 using namespace std;
 
-Circle::Circle() :IGeometry("Circle")
+Circle::Circle() :IGeometry("Circle"),centerPoint(0,0,0),radius(0)
 {
 }
 
 void Circle::input()
 {
-	cout << "Enter 3D Points " << endl;
-	cin >> x >> y >> z;
+	cout << "Enter centerPoint" << endl;
+	cin >> centerPoint.x >> centerPoint.y >> centerPoint.z;
+	cout << "Enter radius" << endl;
+	cin >> radius;
 }
 
 void Circle::display()

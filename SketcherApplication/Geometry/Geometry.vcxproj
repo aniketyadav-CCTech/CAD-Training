@@ -20,12 +20,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includes\Circle.h" />
+    <ClInclude Include="includes\Core.h" />
     <ClInclude Include="includes\Export.h" />
+    <ClInclude Include="includes\Vector.h" />
     <ClInclude Include="includes\IGeometry.h" />
     <ClInclude Include="includes\Line.h" />
     <ClInclude Include="includes\Matrix.h" />
     <ClInclude Include="includes\Point.h" />
-    <ClInclude Include="includes\Vector.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Circle.cpp" />
@@ -129,7 +130,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>C:\Work\SketcherApplication\Geometry\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Work\CAD-Training\SketcherApplication\Geometry\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -147,7 +148,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>C:\Work\SketcherApplication\Geometry\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Work\CAD-Training\SketcherApplication\Geometry\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

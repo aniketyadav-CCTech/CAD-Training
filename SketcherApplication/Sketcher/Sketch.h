@@ -1,16 +1,22 @@
 #ifndef _SKETCH_H
 #define _SKETCH_H
-
-#include "IGeometry.h"
+#include <iostream>
+#include "IGraphics.h"
 #include <vector>
+using namespace std;
 class Sketch
 {
 public:
-	Sketch();
-	void add(IGeometry* geomtery);
+	void add(IGraphics* geomtery);
 	void display();
+	static Sketch* instance();
+
 private:
-	vector<IGeometry*> vecMenu;
+	Sketch();
+
+private:
+	vector<IGraphics*> vecMenu;
+	static Sketch* sketchInstance;
 };
 
 #endif

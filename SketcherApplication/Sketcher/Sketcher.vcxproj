@@ -104,13 +104,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Work\SketcherApplication\Geometry\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Work\CAD-Training\SketcherApplication\Geometry\includes;C:\Work\CAD-Training\SketcherApplication\Graphics\include;C:\Work\CAD-Training\SketcherApplication\Graphics\common\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(SolutionDir)\$(Platform)\$(Configuration)\Geometry.lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>C:\Work\SketcherApplication\x64\Debug\Geometry.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\$(Platform)\$(Configuration)\Graphics.lib;$(SolutionDir)\$(Platform)\$(Configuration)\Geometry.lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>C:\Work\CAD-Training\SketcherApplication\x64\Debug\Geometry.lib;C:\Work\CAD-Training\SketcherApplication\x64\Debug\Graphics.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -121,15 +122,16 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Work\SketcherApplication\Geometry\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Work\CAD-Training\SketcherApplication\Geometry\includes;C:\Work\CAD-Training\SketcherApplication\Graphics\include;C:\Work\CAD-Training\SketcherApplication\Graphics\common\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(SolutionDir)\$(Platform)\$(Configuration)\Geometry.lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>C:\Work\SketcherApplication\x64\Debug\Geometry.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\$(Platform)\$(Configuration)\Graphics.lib;$(SolutionDir)\$(Platform)\$(Configuration)\Geometry.lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>C:\Work\CAD-Training\SketcherApplication\x64\Debug\Geometry.lib;C:\Work\CAD-Training\SketcherApplication\x64\Debug\Graphics.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -140,6 +142,10 @@
   <ItemGroup>
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Sketch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\basic.frag" />
+    <None Include="shaders\basic.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
