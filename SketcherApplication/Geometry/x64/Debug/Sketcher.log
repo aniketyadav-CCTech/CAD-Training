@@ -1,0 +1,26 @@
+﻿  Circle.cpp
+C:\Work\NemKumar\Sketcher\Geometry\includes\Circle.h(6,1): warning C4275: non dll-interface class 'IGeometry' used as base for dll-interface class 'Circle'
+C:\Work\NemKumar\Sketcher\Geometry\includes\IGeometry.h(5,8): message : see declaration of 'IGeometry'
+C:\Work\NemKumar\Sketcher\Geometry\includes\Circle.h(5,17): message : see declaration of 'Circle'
+  IGeometry.cpp
+  Line.cpp
+C:\Work\NemKumar\Sketcher\Geometry\includes\Line.h(6,1): warning C4275: non dll-interface class 'IGeometry' used as base for dll-interface class 'Line'
+C:\Work\NemKumar\Sketcher\Geometry\includes\IGeometry.h(5,8): message : see declaration of 'IGeometry'
+C:\Work\NemKumar\Sketcher\Geometry\includes\Line.h(5,17): message : see declaration of 'Line'
+  Matrix.cpp
+C:\Work\NemKumar\Sketcher\Geometry\includes\Matrix.h(9,1): warning C4275: non dll-interface class 'IGeometry' used as base for dll-interface class 'Matrix'
+C:\Work\NemKumar\Sketcher\Geometry\includes\IGeometry.h(5,8): message : see declaration of 'IGeometry'
+C:\Work\NemKumar\Sketcher\Geometry\includes\Matrix.h(8,17): message : see declaration of 'Matrix'
+C:\Work\NemKumar\Sketcher\Geometry\includes\Matrix.h(12,25): warning C4251: 'Matrix::matElement': class 'std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>' needs to have dll-interface to be used by clients of class 'Matrix'
+C:\Work\NemKumar\Sketcher\Geometry\includes\Matrix.h(12,2): message : see declaration of 'std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>'
+  Point.cpp
+C:\Work\NemKumar\Sketcher\Geometry\includes\Point.h(6,1): warning C4275: non dll-interface class 'IGeometry' used as base for dll-interface class 'Point'
+C:\Work\NemKumar\Sketcher\Geometry\includes\IGeometry.h(5,8): message : see declaration of 'IGeometry'
+C:\Work\NemKumar\Sketcher\Geometry\includes\Point.h(5,17): message : see declaration of 'Point'
+  Vector.cpp
+C:\Work\NemKumar\Sketcher\Geometry\includes\Vector.h(5,1): warning C4275: non dll-interface class 'IGeometry' used as base for dll-interface class 'Vector'
+C:\Work\NemKumar\Sketcher\Geometry\includes\IGeometry.h(5,8): message : see declaration of 'IGeometry'
+C:\Work\NemKumar\Sketcher\Geometry\includes\Vector.h(4,17): message : see declaration of 'Vector'
+  Generating Code...
+     Creating library C:\Work\NemKumar\Sketcher\x64\Debug\Geometry.lib and object C:\Work\NemKumar\Sketcher\x64\Debug\Geometry.exp
+  Geometry.vcxproj -> C:\Work\NemKumar\Sketcher\x64\Debug\Geometry.dll
