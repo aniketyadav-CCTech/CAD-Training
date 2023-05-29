@@ -1,4 +1,0 @@
-C:\Users\Aniket Yadav\Desktop\Work\OpenGLCourse\OpenGLCourse\x64\Debug\OpenGLCourse.vcxproj.CopyComplete
-C:\Users\Aniket Yadav\Desktop\Work\OpenGLCourse\OpenGLCourse\glew32d.dll
-C:\Work\CAD-Training\OpenGLCourse\OpenGLCourse\x64\Debug\OpenGLCourse.vcxproj.CopyComplete
-C:\Work\CAD-Training\OpenGLCourse\OpenGLCourse\glew32d.dll
